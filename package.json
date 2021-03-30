@@ -1,0 +1,24 @@
+{
+  "name": "marqueehomeinvestments",
+  "version": "1.0.0",
+  "description": "Masons home page",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "react-bootstrap": "^1.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tan-Ali/marqueeHomeInvestments.git"
+  },
+  "author": "Tanner Nielsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tan-Ali/marqueeHomeInvestments/issues"
+  },
+  "homepage": "https://github.com/Tan-Ali/marqueeHomeInvestments#readme"
+}
