@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Jumbotron from './component/Jumbotron';
+import NavBar from './component/navbar'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <NavBar></NavBar>
         <Jumbotron>
         <p>
           
