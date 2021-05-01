@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Jumbotron from './component/Jumbotron';
-import NavBar from './component/navbar'
+import NavBar from './component/NavBar';
 
 function App() {
   return (

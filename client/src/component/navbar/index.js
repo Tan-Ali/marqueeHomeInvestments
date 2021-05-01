@@ -1,5 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar';
 
+function Navbar() {
+  return(
 <Navbar bg="dark">
 <Navbar.Brand href="#home">
   <img
@@ -11,24 +13,25 @@ import Navbar from 'react-bootstrap/Navbar';
   />
 </Navbar.Brand>
 </Navbar>
-
-
-
-function Nav() {
-  return (
-<nav className="nav-area" >
-            <Link to = "/">
-            <div class="col-12 col-md-6 text-center pt-3">
-              <img id="nav-logo" src={logo} />
-            </div>
-            </Link>
-              
-                
-        </nav>
-
-      
-    );
+  )
 }
 
 
-export default Nav;
+// function Nav() {
+//   return (
+// <nav className="nav-area" >
+//             <Link to = "/">
+//             <div class="col-12 col-md-6 text-center pt-3">
+//               <img id="nav-logo" src={logo} />
+//             </div>
+//             </Link>
+              
+                
+//         </nav>
+
+      
+//     );
+// }
+
+
+export default Navbar;
